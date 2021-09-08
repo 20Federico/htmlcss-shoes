@@ -8,8 +8,50 @@
 
 body{
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 40px;
     color: yellow;
+}
+
+nav{
+    z-index: 99;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    position: fixed;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+}
+
+/* id */
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+    color: green;
 }
 
 /* classi */
@@ -19,18 +61,6 @@ body{
     position: relative;
 }
 
-.product_container.red{
-    background-color: red;
-}
-
-.product_container.green{
-    background-color: green;
-}
-
-.product_container.yellow{
-    background-color: yellow;
-    color: green;
-}
 
 .product{
     width: 40%;
@@ -46,4 +76,5 @@ body{
 
 .product_descriprion{
     text-align: center;
+    font-size: 40px;
 }
