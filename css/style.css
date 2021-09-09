@@ -8,12 +8,10 @@
 
 body{
     font-family: 'Rubik Mono One', sans-serif;
-    color: yellow;
 }
 
 nav{
     z-index: 99;
-    position: absolute;
     top: 20px;
     right: 10px;
     position: fixed;
@@ -33,10 +31,16 @@ nav ul li a{
     text-decoration: none;
     background-color: white;
     color: black;
-    padding: 10px;
     border-radius: 50%;
     width: 40px;
+    line-height: 40px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
 }
 
 /* id */
@@ -59,6 +63,8 @@ nav ul li a{
 .product_container{
     height: 100vh;
     position: relative;
+    color: yellow;
+    overflow: auto;
 }
 
 
@@ -72,9 +78,4 @@ nav ul li a{
 
 .product img{
     max-width: 100%;
-}
-
-.product_descriprion{
-    text-align: center;
-    font-size: 40px;
 }
